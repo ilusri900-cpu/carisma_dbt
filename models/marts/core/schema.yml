@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_account_balances
+    description: "Daily account balances from core banking system"
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fct_account_exposure
+    description: "IFRS exposure and ECL metrics for credit risk"
+    columns:
+      - name: account_id
+        tests:
+          - not_null

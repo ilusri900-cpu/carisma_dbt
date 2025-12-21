@@ -1,0 +1,5 @@
+version: 2
+
+snapshots:
+  - name: account_snapshot
+    description: "SCD Type-2 snapshot for account history tracking"

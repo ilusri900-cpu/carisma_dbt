@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: oracle_banking
+    database: BANKING_RAW
+    schema: ORACLE
+    tables:
+      - name: common_account_summary
+      - name: ifrs_account_summary
